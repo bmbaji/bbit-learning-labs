@@ -15,6 +15,7 @@
 import argparse
 import sys
 
+
 from solution.consumer_sol import mqConsumer  # pylint: disable=import-error
 
 def main(sector: str, queueName: str) -> None:
